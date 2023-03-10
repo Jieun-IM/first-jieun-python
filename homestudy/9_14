@@ -1,0 +1,9 @@
+#표준 입력
+print("이름을 입력하세요: ", end="")
+name = input()
+print("이름: {0}, type: {1}" .format(name, type(name)) )
+
+print("-"*35)
+
+x = 1
+eval('x + 1')

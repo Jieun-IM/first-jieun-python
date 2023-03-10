@@ -1,0 +1,10 @@
+print('a','b','c','d','e','f','g', sep= " ** ")
+
+print("----------------------------------------")
+
+arr=[1, 2, "blockmask", 3.5, 4.5, 'z']
+
+for v in arr:
+    print(f"value : {v}")
+    
+ 

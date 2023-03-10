@@ -1,0 +1,17 @@
+a = 1,2,3
+print(a)
+
+b,c,d = a
+print(b)
+
+
+result = [x**2 for x in [1,2,3,4,5]]
+print(result)
+
+list = [x if x%3==0 else 0 for x in range(1,21)]
+print(list)
+
+nums = input('정수를 여러개 입력하세요: ').split()
+print(nums)
+result2 = [int(x) for x in nums if x.isdigit]
+print(result2)

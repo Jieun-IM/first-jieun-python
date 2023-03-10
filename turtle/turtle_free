@@ -1,0 +1,41 @@
+import turtle as T
+import random
+
+
+
+## 전역 변수 선언 부분 ##
+swidth, sheight, pSize, exitCount = 300, 300, 3, 0
+r, g, b, angle, dist, curX, curY = [0] * 7
+
+## 메인 코드 부분 ##
+T.title('거북이가 맘대로 다니기')
+T.shape('turtle')
+T.pensize(pSize)
+T.setup(width = swidth + 30, height = sheight + 30)
+T.screensize(swidth, sheight)
+
+while True:
+    r = random.random()
+    g = random.random()
+    b = random.random()
+    T.pencolor((r, g, b))
+    
+    angle = random.randrange(0,360)
+    dist = random.randrange(1,100)
+    T.left(angle)
+    T.forward(dist)
+    curX = T.xcor()
+    curY = T.ycor()
+    
+    if (-swidth / 2 <= curX and curX <= swidth / 2) and (-sheight / 2 <= curY and curY <= sheight / 2) :
+        pass
+    else :
+        T.penup()
+        T.goto(0,0)
+        T.pendown()
+        
+        exitCount += 1
+        if exitCount >= 5 :
+            break
+
+T.done()

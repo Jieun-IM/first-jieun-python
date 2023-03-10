@@ -1,0 +1,7 @@
+base = 2
+
+def square(base=2, exp=3):
+    return base ** exp
+
+if __name__ == '__main__':
+    print(square(5))
