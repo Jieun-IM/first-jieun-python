@@ -1,0 +1,139 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMp2TdQu+OrH3cxPT0UA8pc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jieun-IM/first-jieun-python/blob/master/COLAB_%EC%97%B0%EC%8A%B5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 첫 colab 코딩🖱"
+      ],
+      "metadata": {
+        "id": "-KcNC5hO8o2Z"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## hello world 출력"
+      ],
+      "metadata": {
+        "id": "q4xTx-fC87CF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('hello world')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ogPmND6a85wY",
+        "outputId": "473b602a-9689-489c-8456-cc9992077329"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 리스트 출력"
+      ],
+      "metadata": {
+        "id": "yEaOzbj19C1a"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = [1,2,3,4,5,6,7]\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OuUB-pcI9GNy",
+        "outputId": "a5809ccc-e3f2-432b-ffd9-66bc56918ac8"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5, 6, 7]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 리스트 요소 삭제"
+      ],
+      "metadata": {
+        "id": "uUOR95Lq9RGu"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = [1,2,3,4,5,6,7]\n",
+        "a.remove(2)\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oDtUqqVT9WC2",
+        "outputId": "1d8e6d68-4798-41b2-c5f3-060dfe3fff53"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 3, 4, 5, 6, 7]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
